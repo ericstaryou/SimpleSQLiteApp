@@ -5,6 +5,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/***************************************************************************************
+*    Originator: John McNeil
+*    Year of Distribution: 2016
+*    Title of Video: Java with SQLite embedded database
+*    Date of Video: 21 January 2016
+*    Video Website Address: https://www.youtube.com/watch?v=JPsWaI5Z3gs
+*    Accessed Date: 29 July 2016
+*
+***************************************************************************************/
+
 public class SQLiteTest {
 
 	private static Connection con;
