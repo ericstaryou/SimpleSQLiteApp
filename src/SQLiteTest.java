@@ -23,7 +23,7 @@ public class SQLiteTest {
 	private void getConnection() throws ClassNotFoundException, SQLException {
 		Class.forName("org.sqlite.JDBC");
 		con = DriverManager.getConnection("jdbc:sqlite:SQLiteTest1.db");
-		initialise();//
+		initialise();
 	}
 
 	private void initialise() throws SQLException {
